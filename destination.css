@@ -1,0 +1,96 @@
+* {
+    font-family: 'Acme', sans-serif;
+}
+
+body {
+    background-color: #DBDBD9;
+    margin: 100px 0 0 0;
+    padding: auto;
+    
+    
+}
+header {
+    background: url(../img/plane.jpg) 100% fixed;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    line-height: 2px;  
+    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+h1.titre {
+    font-size: 100px;
+    margin-top: 140px;
+    text-transform: uppercase;
+}
+
+h3.slogan {
+    font-size: 35px;
+    font-style: italic;
+}
+div.destination-item {
+    color: #373737;
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    position: relative;
+    flex: 1 0 29%;
+    background-size: 100%;
+}
+div.destination-item:hover {
+    
+    transform: scale(0.98);
+    transition: 0.2s all;
+
+}
+div.destinations-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.istanbul { background: url(../img/istanbul.jpg); }
+.paris{ background: url(../img/paris-1-1200x700.jpg); }
+.italy { background: url(../img/italy.jpg); }
+.maldive { background: url(../img/maldive.jpg); }
+.egypt { background: url(../img/egypt.jpg); }
+.tunis { background: url(../img/tunis.jpg); }
+
+.overlay{
+    color: #373737;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+span.nom {
+    position: relative;
+    color: #373737;
+    background-color: #DBDBD9;
+    top: 20px;
+    float: right;
+    padding: 12px;
+    font-size: 22px;
+}
+span.prix {
+    position: relative;
+    color: #fff;
+    background-color: #EF8F1D;
+    padding: 12px;
+    font-size: 25px;
+    top: 220px;
+}
+footer p{
+    text-align: center;
+    color: #373737;
+    padding: 10px;
+
+}
