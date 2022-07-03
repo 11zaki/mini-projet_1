@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(../img-contact/bf.jpg) no-repeat ;
+    background-size:cover;
+}
+li{
+    float: right;  
+    display:inline-block;}
+
+li a {
+    text-transform:uppercase;
+    font-weight:bold;
+    margin-right:20px;
+}
+form {
+    background-color: gray;
+    opacity:0.8 ;
+    margin: 150px;
+    padding: 150px;
+}
+.form-group {
+    color: black;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+.form-group input, select, option{
+    border: none;
+    padding: 5px;
+    background-color: bisque;
+}
+.form-group label {
+    margin: 5px;
+    padding: 10px;
+}
+.form-group input{
+    margin: 7px;
+    padding: 10px;
+}
+.button-submit{
+    text-align: center;
+    
+}
+.button-submit input {
+    background-color: #373737;
+    border: none;
+    color: #DBDBD9;
+    cursor: pointer;
+    font-size: 25px;
+    margin-top: 15px;
+}
